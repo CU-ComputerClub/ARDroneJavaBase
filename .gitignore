@@ -7,8 +7,10 @@
 
 ## Ignored... ##
 ARDroneCSI/.settings
+ARDroneCSI/.settings/*
 ARDroneCSI/.settings/**   # eclipse settings
 .metadata
+.metadata/*
 .metadata/**              # eclipse settings
 
 #### Packages ####
