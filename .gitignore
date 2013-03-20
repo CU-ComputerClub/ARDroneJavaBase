@@ -1,13 +1,15 @@
 #### Project-specific ####
 
-# Intentionally NOT ignored...
-
+## Intentionally NOT ignored... ##
 #*.jar        # jar libraries are to be included
-#.classpath   # specifies classpaths used for the project
-#.project     # eclipse project settings
+#.classpath   # specifies classpaths used for the project (eclipse)
+#.project     # project metadata (eclipse)
 
-# Ignored...
-ARDroneCSI/.settings/**
+## Ignored... ##
+ARDroneCSI/.settings
+ARDroneCSI/.settings/**   # eclipse settings
+.metadata
+.metadata/**              # eclipse settings
 
 #### Packages ####
 
