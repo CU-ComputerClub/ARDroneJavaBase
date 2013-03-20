@@ -9,9 +9,17 @@ This project includes two working examples:
 
 Both of these applications can be executed.
 
+Getting started
+===
+For Eclipse users this project can be directly imported:
+* Download or clone this repository. 
+* In Eclipse, go to File -> Import
+* Select General -> Existing Projects into Workspace
+* Select the ARDroneCSI directory as the root directory
+* Set others settings as preferred and finish the import
 
 Source code
-====
+===
 Located in the src directory.
 * ARDrone API. (com.codeminders.ardrone) From: https://code.google.com/p/javadrone/
 * Control Tower ARDrone GUI. (com.codeminders.controltower) From: https://code.google.com/p/javadrone/
@@ -21,7 +29,7 @@ This source code is taken from the August 2012 commit of the javadrone project.
 Resources (e.g., graphics) required by the Control Tower GUI are located in the resources directory.
 
 Libraries
-====
+===
 Located in the lib directory.
 * hidapi
 * jul-to-slf4j
